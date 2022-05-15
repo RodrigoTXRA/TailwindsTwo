@@ -1,0 +1,16 @@
+{
+  "name": "tailwindtwo",
+  "version": "1.0.0",
+  "description": "Tailwind Sample Install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainjsfile.js",
+    "build-css": "tailwindcss build src/input.css -o dist/output.css"
+  },
+  "author": "Rod",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
